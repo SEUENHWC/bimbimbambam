@@ -10,6 +10,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            ameba();
+        }
+        static void ameba()
+        {
             double x = 2;
             double sum = 0;
             for (double i = 1; i <= 10; i++)
